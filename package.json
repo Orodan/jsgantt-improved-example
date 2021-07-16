@@ -1,0 +1,22 @@
+{
+  "name": "jsgantt-improved-example",
+  "version": "1.0.0",
+  "description": "Created with CodeSandbox",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Orodan/jsgantt-improved-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Orodan/jsgantt-improved-example/issues"
+  },
+  "homepage": "https://github.com/Orodan/jsgantt-improved-example#readme",
+  "devDependencies": {
+    "serve": "^12.0.0"
+  }
+}

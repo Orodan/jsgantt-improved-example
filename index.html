@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>jsgantt-improved-example</title>
+    <link
+      href="https://unpkg.com/jsgantt-improved@2.5.5/dist/jsgantt.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <select id="selectId" onchange="selectOnChange(event)">
+      <option value="0">First style</option>
+      <option value="1">Second style</option>
+      <option value="2">Third style</option>
+    </select>
+    <div style="position: relative;" class="gantt" id="gantChart"></div>
+    <script
+      src="https://unpkg.com/jsgantt-improved@2.5.5/dist/jsgantt.js"
+      type="text/javascript"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
